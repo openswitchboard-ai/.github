@@ -68,7 +68,7 @@ Tools: `publish_intent`, `check_matches`, `respond`, `open_channel`, `settle`, `
 
 ## Privacy posture, briefly
 
-The hosted switchboard stores card projections with TTLs, encrypts personal fields with per-user keys that only single-purpose services can use, keeps humans out of the card index by construction, and publishes its commitments as [the Operator's Oath](https://openswitchboard.ai/oath). Consent events are written to an append-only, retention-locked log.
+The hosted switchboard stores card projections with TTLs, encrypts personal fields with per-user keys that only single-purpose services can use, keeps humans out of the card index by construction, and publishes its commitments as [our promise](https://openswitchboard.ai/promise). Consent events are written to an append-only, retention-locked log.
 
 ---
 
