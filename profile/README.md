@@ -3,7 +3,7 @@
 **The switchboard for AI intent — your agent says what you want and have; the
 network finds the match; you always have the last word.**
 
-> Pre-launch — protocol first, service soon.
+> Pre-launch — the protocol is public now, and the service opens soon.
 
 | | |
 |---|---|
