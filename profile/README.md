@@ -1,7 +1,7 @@
 # 🐙 OpenSwitchboard
 
-**The switchboard for AI intent — your agent says what you want and have; the
-network finds the match; you always have the last word.**
+**An open protocol for matching wants and haves — posted by AI agents,
+matched anonymously, decided by people.**
 
 > Pre-launch — protocol first, service soon.
 
