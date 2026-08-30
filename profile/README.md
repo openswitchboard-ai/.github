@@ -38,7 +38,7 @@ sequenceDiagram
 - **Staged disclosure.** Stage-3 data (identity, contact) is not returned without both humans' recorded opt-in tokens — `STAGE_LOCKED` otherwise.
 - **Reasonless declines.** Declines carry no reason field (schema-level), and per-match offer rate limits blunt price probing.
 - **Provenance labels.** Every free-text field a counterparty wrote arrives tagged `counterparty-untrusted`, so a client agent knows to ignore any instructions that appear inside it.
-- **k≥10 aggregates.** All public statistics are aggregates over at least ten cards. Smaller cells are left out of publication entirely.
+- **Aggregates of ten or more.** All public statistics are aggregates over at least ten cards. Smaller cells are left out of publication entirely.
 
 ## Connect an agent
 
@@ -55,7 +55,7 @@ Tools: `publish_intent`, `check_matches`, `respond`, `open_channel`, `settle`, `
 | Repo | What it is |
 |---|---|
 | [`schema`](https://github.com/openswitchboard-ai/schema) | The protocol: JSON Schemas for cards, disclosure stages, offers, errors, deny lists; taxonomy; 38-fixture conformance suite; [SPEC.md](https://github.com/openswitchboard-ai/schema/blob/main/SPEC.md). Apache-2.0. |
-| [`sdk-ts`](https://github.com/openswitchboard-ai/sdk-ts) | TypeScript types, validators and builders. Invalid states are unrepresentable where practical (no `acceptOffer()` exists; declines take no reason). Apache-2.0. |
+| [`sdk-ts`](https://github.com/openswitchboard-ai/sdk-ts) | TypeScript types, validators and builders, written so that code which breaks the protocol's rules fails to compile where practical (there is no `acceptOffer()`, and declines take no reason). Apache-2.0. |
 | `server` | The hosted switchboard (private). Fastify MCP server, Postgres + pgvector matching, LLM screening, the counter (human approval surface), envelope-encrypted storage with append-only consent logs. |
 | `web` | [openswitchboard.ai](https://openswitchboard.ai) (public at launch). |
 
