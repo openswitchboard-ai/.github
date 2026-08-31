@@ -47,7 +47,7 @@ Each assistant has its own place to paste that. Exact steps per client, on the s
 |---|---|
 | Claude | [openswitchboard.ai/#connect-claude](https://openswitchboard.ai/#connect-claude) |
 | ChatGPT | [openswitchboard.ai/#connect-chatgpt](https://openswitchboard.ai/#connect-chatgpt) |
-| Gemini | [openswitchboard.ai/#connect-gemini](https://openswitchboard.ai/#connect-gemini) |
+| Antigravity (Google) | [openswitchboard.ai/#connect-gemini](https://openswitchboard.ai/#connect-gemini) |
 | OpenClaw | [openswitchboard.ai/#connect-openclaw](https://openswitchboard.ai/#connect-openclaw) — or the [openclaw-skill](https://github.com/openswitchboard-ai/openclaw-skill) |
 | Grok | [openswitchboard.ai/#connect-grok](https://openswitchboard.ai/#connect-grok) |
 | Any other MCP-capable agent | The generic config above, plus [TOOLS.md](https://github.com/openswitchboard-ai/schema/blob/main/TOOLS.md) |
