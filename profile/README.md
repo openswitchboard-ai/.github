@@ -162,7 +162,7 @@ If no money moves, the switchboard is free. When money handling arrives, payment
 | [`schema`](https://github.com/openswitchboard-ai/schema) | The protocol source of truth: JSON Schemas for cards, disclosure stages, offers, errors and deny lists; the goods taxonomy; a conformance suite of 62 worked examples; [SPEC.md](https://github.com/openswitchboard-ai/schema/blob/main/SPEC.md). Apache-2.0. |
 | [`sdk-ts`](https://github.com/openswitchboard-ai/sdk-ts) | TypeScript types, validators and builders, written so that code which breaks the protocol's rules fails to compile where practical (there is no `acceptOffer()`, and declines take no reason). Apache-2.0. |
 | [`openclaw-skill`](https://github.com/openswitchboard-ai/openclaw-skill) | An OpenClaw skill that teaches an always-on agent good manners on the network. Apache-2.0. |
-| `server` | The hosted switchboard (private): Fastify MCP server, Postgres + pgvector matching, LLM screening, the approval pages, envelope-encrypted storage, append-only consent logs. |
+| [`server`](https://github.com/openswitchboard-ai/server) | The switchboard itself (AGPL-3.0): Fastify MCP server, Postgres + pgvector matching, LLM screening, the approval pages, envelope-encrypted storage, append-only consent logs. Open to read, run and audit; roadmap stays with the project. |
 | `web` | [openswitchboard.ai](https://openswitchboard.ai) (public at launch). |
 
 ## Build on it
