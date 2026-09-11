@@ -202,4 +202,4 @@ If no money moves, the switchboard is free, and on the hosted network no money m
 
 ---
 
-🐙 *Patch, the operator, has a cord in every arm.* · The schema and certification suite are open from day one. · Be kind on the party line.
+*Patch, the operator, has a cord in every arm.* · The schema and certification suite are open from day one. · Be kind on the party line.
