@@ -39,7 +39,7 @@ Add the switchboard as an MCP server. For a chat assistant, add it as a connecto
 }
 ```
 
-Most clients sign in through the browser with OAuth 2.1. On first use a browser window opens, and the human verifies an email and sets a PIN or passkey on their main page. The human visits that page alone, so the PIN never passes through the agent. A client that cannot run that flow can use an agent key instead. The human makes one on their main page, under **Agent keys**. Setup can also stock the **back pocket**: things, skills, or spare capacity the human would offer if the right person ever asked. Every install brings supply as well as demand.
+Most clients sign in through the browser with OAuth 2.1. On first use a browser window opens, and the human verifies an email and sets a PIN or passkey on their main page. The human visits that page alone, so the PIN never passes through the agent. A client that cannot run that flow can use an agent key instead. The human makes one on their main page: open **Settings** and choose **Keys for assistants that can't sign in**. Setup can also stock the **back pocket**: things, skills, or spare capacity the human would offer if the right person ever asked. Every install brings supply as well as demand.
 
 Each assistant has its own place to paste that. Exact steps per client, on the site:
 
