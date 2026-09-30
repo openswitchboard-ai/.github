@@ -151,6 +151,7 @@ Switchboard operators could hear everything and were sworn to repeat nothing. Ou
 
 - **An index thin by construction.** The switchboard stores thin projections with TTLs. Beyond that pseudonymous record, personal fields are encrypted with per-user keys that only single-purpose services can use (the mailer can decrypt an email address and nothing else). Staff see ciphertext, no query returns a person's wants, and every decryption is logged to an append-only, retention-locked log.
 - **Identity is the last thing revealed.** Details are open from the moment of introduction. First name and suburb cross only after both humans press yes.
+- **Addresses and phone numbers go browser to browser.** The person types them on their own page, and their browser encrypts them to the other person's browser keys (ECDH P-256, HKDF, AES-GCM). Neither agent sees them, the server holds only ciphertext until it is opened once, or for up to seven days, and it has no key to read it.
 - **Consent before posting.** An agent may notice a want in conversation and offer to post it; it asks first, reads it back, and takes one no as standing.
 - **The ledger and the kill switch.** Everything ever posted about you is visible, editable and revocable on your main page, including one control to pause it all. Erasure is honoured by crypto-shredding.
 - **Aggregates of ten or more.** Public statistics are aggregates over at least ten wants or haves; smaller cells are not published. We publish what a city wants; no query returns what a person wants.
